@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "group8-extension",
+  "version": "1.0",
+
+  "description": "shows the forecast for the week",
+  "homepage_url": "https://github.com/nyu-ossd-s20/group8-extension",
+  "icons": {
+    "48": "icons/weather-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/weather-32.png",
+    "default_title": "Weatherify",
+    "default_popup": "popup/check_weather.html"
+  }
+
+}
